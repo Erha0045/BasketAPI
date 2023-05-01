@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Basket.API.Models
 {
     public class BasketHeader

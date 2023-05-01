@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Basket.API.Models
 {
     public class BasketDetails

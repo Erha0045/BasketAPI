@@ -1,6 +1,10 @@
 using AutoMapper;
 using Basket.API;
+using Basket.API.Data;
+using DotNetEnv;
 using Microsoft.EntityFrameworkCore;
+
+Env.Load();
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +14,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
     .Replace("MYSQL_USER", Environment.GetEnvironmentVariable("MYSQL_USER"))
     .Replace("MYSQL_PASSWORD", Environment.GetEnvironmentVariable("MYSQL_PASSWORD"));
 
-builder.Services.AddDbContext<Basket.API.Data.ProductContext>(options =>
+builder.Services.AddDbContext<ProductContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
     /* builder.Services.AddDbContext<ApplicationDbContext>(options =>
