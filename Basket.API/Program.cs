@@ -1,6 +1,7 @@
 using AutoMapper;
 using Basket.API;
 using Basket.API.Data;
+using Basket.API.Repo;
 using DotNetEnv;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,15 +18,14 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ProductContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-    /* builder.Services.AddDbContext<ApplicationDbContext>(options =>
-               options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
- */
-IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
-            builder.Services.AddSingleton(mapper);
-            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-            //services.AddScoped<IProductRepository, ProductRepository>();
-            
-builder.Services.AddControllers();
+/* builder.Services.AddDbContext<ApplicationDbContext>(options =>
+           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+*/
+        IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+        builder.Services.AddSingleton(mapper);
+        builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+        builder.Services.AddScoped<IBasketRepo, BasketRepo>();
+        builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
