@@ -1,6 +1,5 @@
 namespace Basket.API.Models
 {
-    //remove this comment
     public class Basket
     {
         public BasketHeader BasketHeader { get; set; }
