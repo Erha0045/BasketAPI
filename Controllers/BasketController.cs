@@ -1,8 +1,8 @@
-using Basket.API.Models.Dto;
-using Basket.API.Repo;
+using BasketAPI.Models.Dto;
+using BasketAPI.Repo;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Basket.API.Controllers
+namespace BasketAPI.Controllers
 {
     [ApiController]
     [Route("api/basket")]

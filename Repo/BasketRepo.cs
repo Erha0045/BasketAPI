@@ -1,10 +1,10 @@
 using AutoMapper;
-using Basket.API.Data;
-using Basket.API.Models.Dto;
-using Basket.API.Models;
+using BasketAPI.Data;
+using BasketAPI.Models.Dto;
+using BasketAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Basket.API.Repo
+namespace BasketAPI.Repo
 {
     public class BasketRepo : IBasketRepo
     {

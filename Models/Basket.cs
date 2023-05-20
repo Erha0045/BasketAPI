@@ -1,4 +1,4 @@
-namespace Basket.API.Models
+namespace BasketAPI.Models
 {
     public class Basket
     {

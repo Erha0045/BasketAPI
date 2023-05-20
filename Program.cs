@@ -1,7 +1,7 @@
 using AutoMapper;
-using Basket.API;
-using Basket.API.Data;
-using Basket.API.Repo;
+using BasketAPI;
+using BasketAPI.Data;
+using BasketAPI.Repo;
 using DotNetEnv;
 using Microsoft.EntityFrameworkCore;
 

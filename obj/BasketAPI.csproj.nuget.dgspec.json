@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/erhanbasaran/Desktop/BasketAPI/Basket.API/Basket.API.csproj": {}
+    "/Users/erhanbasaran/Desktop/BasketAPI/BasketAPI.csproj": {}
   },
   "projects": {
-    "/Users/erhanbasaran/Desktop/BasketAPI/Basket.API/Basket.API.csproj": {
+    "/Users/erhanbasaran/Desktop/BasketAPI/BasketAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erhanbasaran/Desktop/BasketAPI/Basket.API/Basket.API.csproj",
-        "projectName": "Basket.API",
-        "projectPath": "/Users/erhanbasaran/Desktop/BasketAPI/Basket.API/Basket.API.csproj",
+        "projectUniqueName": "/Users/erhanbasaran/Desktop/BasketAPI/BasketAPI.csproj",
+        "projectName": "BasketAPI",
+        "projectPath": "/Users/erhanbasaran/Desktop/BasketAPI/BasketAPI.csproj",
         "packagesPath": "/Users/erhanbasaran/.nuget/packages/",
-        "outputPath": "/Users/erhanbasaran/Desktop/BasketAPI/Basket.API/obj/",
+        "outputPath": "/Users/erhanbasaran/Desktop/BasketAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/erhanbasaran/.nuget/NuGet/NuGet.Config"

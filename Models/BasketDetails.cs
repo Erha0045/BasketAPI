@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Basket.API.Models
+namespace BasketAPI.Models
 {
     public class BasketDetails
     {

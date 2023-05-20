@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Basket.API.Migrations
+namespace BasketAPI.Migrations
 {
     /// <inheritdoc />
     public partial class AddInitial : Migration

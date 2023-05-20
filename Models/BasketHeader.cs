@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Basket.API.Models
+namespace BasketAPI.Models
 {
     public class BasketHeader
     {

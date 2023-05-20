@@ -1,12 +1,12 @@
 using AutoMapper;
-using Basket.API.Models;
-using Basket.API.Models.Dto;
+using BasketAPI.Models;
+using BasketAPI.Models.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Basket.API
+namespace BasketAPI
 {
     public class MappingConfig
     {

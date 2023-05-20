@@ -1,4 +1,4 @@
-namespace Basket.API.Models.Dto
+namespace BasketAPI.Models.Dto
 {
     public class BasketDto
     {

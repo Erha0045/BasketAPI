@@ -1,6 +1,6 @@
-using Basket.API.Models.Dto;
+using BasketAPI.Models.Dto;
 
-namespace Basket.API.Repo
+namespace BasketAPI.Repo
 {
     public interface IBasketRepo
     {

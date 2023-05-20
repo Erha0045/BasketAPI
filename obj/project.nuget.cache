@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xJGzk72L27YYSFXsgI0vuyp0eBMrQJZAth8g9YGf1gUs8/h1wy3HPsHPuR+oofMKTZDHy1CbIwvbG0ds2ZckiA==",
+  "dgSpecHash": "TqU+eN1P4F9vEv+K9m+3Xl1h/g9CZVuulpCh9M4PlU6b0/CfG+sumyWrBNB4jT8vwcetx2ooyoS3X8VwUJLL+Q==",
   "success": true,
-  "projectFilePath": "/Users/erhanbasaran/Desktop/BasketAPI/Basket.API/Basket.API.csproj",
+  "projectFilePath": "/Users/erhanbasaran/Desktop/BasketAPI/BasketAPI.csproj",
   "expectedPackageFiles": [
     "/Users/erhanbasaran/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/erhanbasaran/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

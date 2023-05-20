@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using Basket.API.Models;
+using BasketAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Basket.API.Data
+namespace BasketAPI.Data
 {
     public class ProductContext : DbContext
     {
